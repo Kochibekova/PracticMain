@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\Task3\Task3\bin\Debug\Task3.exe.config
+C:\Users\user\Desktop\Task3\Task3\bin\Debug\Task3.exe
+C:\Users\user\Desktop\Task3\Task3\bin\Debug\Task3.pdb
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\Task3.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\Task3.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\Task3_MarkupCompile.cache
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\Task3_MarkupCompile.lref
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\Task3.g.resources
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\Task3.Properties.Resources.resources
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\Task3.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\Task3.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\Task3.exe
+C:\Users\user\Desktop\Task3\Task3\obj\Debug\Task3.pdb
