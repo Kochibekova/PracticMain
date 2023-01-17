@@ -1,0 +1,47 @@
+﻿<Window x:Class="Task4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task4"
+        mc:Ignorable="d"
+        Title="Task4" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="206*"/>
+            <RowDefinition Height="213*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="287*"/>
+            <ColumnDefinition Width="322*"/>
+            <ColumnDefinition Width="183*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="count" Content="1" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Width="120" Height="30" Click="count_Click"/>
+        <Label x:Name="answer" Content="" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Height="30" Width="120" Background="#FFFF9393"/>
+        <Label x:Name="answer1" Content="" HorizontalAlignment="Left" Margin="144,65,0,0" VerticalAlignment="Top" Height="30" Width="120" Background="#FFFF9393"/>
+        <TextBox x:Name="a" HorizontalAlignment="Left" Height="23" Margin="10,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFFF9393"/>
+        <TextBox x:Name="b" HorizontalAlignment="Left" Height="23" Margin="144,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFFF9393"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,10,0,0" TextWrapping="Wrap" Text="Введите число " VerticalAlignment="Top" Height="16" Width="83"/>
+        <TextBlock HorizontalAlignment="Left" Margin="157,10,0,0" TextWrapping="Wrap" Text="Введите число " VerticalAlignment="Top" Height="16" Width="83"/>
+        <Button x:Name="z2" Content="2" HorizontalAlignment="Left" Margin="25,111,0,0" VerticalAlignment="Top" Width="187" Height="30" Click="z2_Click" Grid.Column="1"/>
+        <Label x:Name="k" Content="" HorizontalAlignment="Left" Margin="25,47,0,0" VerticalAlignment="Top" Width="298" Background="#FFD1F7CF" Grid.Column="1" Height="48" Grid.ColumnSpan="2"/>
+        <Button x:Name="z3" Content="3" HorizontalAlignment="Left" Margin="10,143,0,0" VerticalAlignment="Top" Width="120" Height="32" Click="z3_Click" Grid.Column="2"/>
+        <Label x:Name="f" Content="" HorizontalAlignment="Left" Margin="10,94,0,0" VerticalAlignment="Top" Height="31" Width="120" Background="#FFECBEE1" Grid.Column="2"/>
+        <TextBox x:Name="za3" HorizontalAlignment="Left" Height="31" Margin="10,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFECBEE1" Grid.Column="2"/>
+        <Button x:Name="z4" Content="4" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="110" Height="32" Click="z4_Click" Grid.Row="1"/>
+        <TextBox x:Name="age" HorizontalAlignment="Left" Height="45" Margin="10,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110" Background="#FFA0F9FD" Grid.Row="1"/>
+        <Label x:Name="n" Content="" HorizontalAlignment="Left" Margin="144,26,0,0" VerticalAlignment="Top" Height="45" Width="120" Background="#FFA0F9FD" Grid.Row="1"/>
+        <Button x:Name="z5" Content="5" Grid.Column="1" HorizontalAlignment="Left" Margin="10,112,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120" Height="32" Click="z5_Click"/>
+        <Label x:Name="r" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="10,76,0,0" Grid.Row="1" VerticalAlignment="Top" Width="168" Height="31" Background="#FFE6D8C4"/>
+        <TextBox x:Name="fuu" Grid.Column="1" HorizontalAlignment="Left" Height="31" Margin="10,23,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Background="#FFE6D8C4"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,47,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Height="16" Width="83"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,10,0,0" TextWrapping="Wrap" Text="Введите число " VerticalAlignment="Top" Height="16" Width="83" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="157,10,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Height="16" Width="83" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,3,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1" Height="32" Width="202"><Run Text="Выводит"/><Run Text=" квадраты чисел от 10 до 20"/><LineBreak/><Run Text="включительно."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,24,0,0" TextWrapping="Wrap" Text="Введите число " VerticalAlignment="Top" Height="16" Width="83" Grid.Column="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,2,0,0" TextWrapping="Wrap" Text="Введите число " VerticalAlignment="Top" Height="16" Width="83" Grid.Column="1" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,55,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Height="16" Width="83" Grid.Row="1" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,82,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Height="16" Width="83" Grid.Column="2"/>
+
+    </Grid>
+</Window>
