@@ -10,37 +10,37 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="z1" Content="1" HorizontalAlignment="Left" Margin="10,347,0,0" VerticalAlignment="Top" Width="127" Height="62" Click="z1_Click"/>
-        <TextBox x:Name="n1" HorizontalAlignment="Left" Height="65" Margin="10,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" Background="#FFC9C6FB"/>
-        <TextBox x:Name="n2" HorizontalAlignment="Left" Height="65" Margin="10,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" Background="#FFC9C6FB"/>
-        <TextBox x:Name="no" HorizontalAlignment="Left" Height="65" Margin="10,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" Background="#FFC9C6FB"/>
-        <Label x:Name="s" Content="" HorizontalAlignment="Left" Margin="10,286,0,0" VerticalAlignment="Top" Height="56" Width="127" Background="#FFC9C6FB"/>
-        <Button x:Name="z2" Content="2" HorizontalAlignment="Left" Margin="146,252,0,0" VerticalAlignment="Top" Width="109" Height="62" Click="z2_Click"/>
-        <TextBox x:Name="m" HorizontalAlignment="Left" Height="65" Margin="146,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" Background="#FF4C8DFF"/>
-        <TextBox x:Name="m1" HorizontalAlignment="Left" Height="65" Margin="146,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="109" Background="#FF4C8DFF"/>
-        <Label x:Name="a" Content="" HorizontalAlignment="Left" Margin="146,193,0,0" VerticalAlignment="Top" Height="54" Width="109" Background="#FF4C8DFF"/>
-        <Button x:Name="z3" Content="3" HorizontalAlignment="Left" Margin="285,182,0,0" VerticalAlignment="Top" Width="137" Height="62" Click="z3_Click"/>
-        <TextBox x:Name="kol" HorizontalAlignment="Left" Height="65" Margin="285,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Background="#FFFF9F9F"/>
-        <Label x:Name="pol" Content="" HorizontalAlignment="Left" Margin="260,112,0,0" VerticalAlignment="Top" Height="65" Width="218" Background="#FFFF9F9F"/>
-        <Button x:Name="z4" Content="4" HorizontalAlignment="Left" Margin="495,185,0,0" VerticalAlignment="Top" Width="111" Height="62" Click="z4_Click"/>
-        <TextBox x:Name="hol" HorizontalAlignment="Left" Height="65" Margin="495,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Background="#FFFF88AE"/>
-        <Label x:Name="fol" Content="" HorizontalAlignment="Left" Margin="495,110,0,0" VerticalAlignment="Top" Height="65" Width="111" Background="#FFFF88AE"/>
-        <Button x:Name="z5" Content="5" HorizontalAlignment="Left" Margin="654,182,0,0" VerticalAlignment="Top" Width="120" Height="62" Click="z5_Click"/>
-        <Label x:Name="sol" Content="" HorizontalAlignment="Left" Margin="654,110,0,0" VerticalAlignment="Top" Height="65" Width="120" Background="#FFFFA479"/>
-        <TextBox x:Name="tol" HorizontalAlignment="Left" Height="65" Margin="654,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFFFA479"/>
+        <Button x:Name="z1" Content="1" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" Width="127" Height="24" Click="z1_Click"/>
+        <TextBox x:Name="n1" HorizontalAlignment="Left" Height="27" Margin="150,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" Background="#FFC9C6FB"/>
+        <TextBox x:Name="n2" HorizontalAlignment="Left" Height="27" Margin="10,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" Background="#FFC9C6FB"/>
+        <TextBox x:Name="no" HorizontalAlignment="Left" Height="27" Margin="10,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" Background="#FFC9C6FB"/>
+        <Label x:Name="s" Content="" HorizontalAlignment="Left" Margin="150,70,0,0" VerticalAlignment="Top" Height="27" Width="127" Background="#FFC9C6FB"/>
+        <Button x:Name="z2" Content="2" HorizontalAlignment="Left" Margin="10,291,0,0" VerticalAlignment="Top" Width="128" Height="29" Click="z2_Click"/>
+        <TextBox x:Name="m" HorizontalAlignment="Left" Height="31" Margin="10,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" Background="#FF4C8DFF"/>
+        <TextBox x:Name="m1" HorizontalAlignment="Left" Height="31" Margin="10,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" Background="#FF4C8DFF"/>
+        <Label x:Name="a" Content="" HorizontalAlignment="Left" Margin="10,207,0,0" VerticalAlignment="Top" Height="31" Width="127" Background="#FF4C8DFF"/>
+        <Button x:Name="z3" Content="3" HorizontalAlignment="Left" Margin="167,255,0,0" VerticalAlignment="Top" Width="214" Height="28" Click="z3_Click"/>
+        <TextBox x:Name="kol" HorizontalAlignment="Left" Height="31" Margin="167,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Background="#FFFF9F9F"/>
+        <Button x:Name="z4" Content="4" HorizontalAlignment="Left" Margin="475,107,0,0" VerticalAlignment="Top" Width="124" Height="62" Click="z4_Click"/>
+        <TextBox x:Name="hol" HorizontalAlignment="Left" Height="27" Margin="475,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124" Background="#FFFF88AE"/>
+        <Button x:Name="z5" Content="5&#xD;&#xA;посчитать &#xD;&#xA;кол-во маршрутов" HorizontalAlignment="Left" Margin="636,190,0,0" VerticalAlignment="Top" Width="133" Height="62" Click="z5_Click"/>
+        <Label x:Name="sol" Content="" HorizontalAlignment="Left" Margin="636,110,0,0" VerticalAlignment="Top" Height="65" Width="120" Background="#FFFFA479"/>
+        <TextBox x:Name="tol" HorizontalAlignment="Left" Height="65" Margin="636,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="#FFFFA479"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Введите число" VerticalAlignment="Top" Height="16" Width="97"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,94,0,0" TextWrapping="Wrap" Text="Введите число" VerticalAlignment="Top" Height="16" Width="97"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="108"><Run Text="Введите "/><Run Text="действие"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="10,267,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Height="16" Width="80"/>
-        <TextBlock HorizontalAlignment="Left" Margin="140,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="119"><Run Text="Введите "/><Run Text="кол-во денег"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="146,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="72"><Run Text="Введите "/><Run Text="курс"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="146,172,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Height="16" Width="59"/>
-        <TextBlock HorizontalAlignment="Left" Margin="310,5,0,0" TextWrapping="Wrap" Text="Введите число" VerticalAlignment="Top" Height="16" Width="91"/>
-        <TextBlock HorizontalAlignment="Left" Margin="310,94,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Height="16" Width="68"/>
-        <TextBlock HorizontalAlignment="Left" Margin="495,91,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Height="16" Width="59"/>
-        <TextBlock HorizontalAlignment="Left" Margin="495,10,0,0" TextWrapping="Wrap" Text="Введите число" VerticalAlignment="Top" Height="16" Width="93"/>
+        <TextBlock HorizontalAlignment="Left" Margin="150,10,0,0" TextWrapping="Wrap" Text="Введите число" VerticalAlignment="Top" Height="16" Width="97"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="108"><Run Text="Введите "/><Run Text="действие"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="150,54,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Height="16" Width="80"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="119"><Run Text="Введите "/><Run Text="кол-во денег"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="72"><Run Text="Введите "/><Run Text="курс"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,239,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Height="16" Width="59"/>
+        <TextBlock HorizontalAlignment="Left" Margin="167,143,0,0" TextWrapping="Wrap" Text="Введите число" VerticalAlignment="Top" Height="16" Width="91"/>
+        <TextBlock HorizontalAlignment="Left" Margin="167,192,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Height="16" Width="68"/>
+        <TextBlock HorizontalAlignment="Left" Margin="475,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="124"><Run Text="Введите "/><Run Text="задолжность"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="654,13,0,0" TextWrapping="Wrap" Text="Введите число" VerticalAlignment="Top" Height="16" Width="102"/>
         <TextBlock HorizontalAlignment="Left" Margin="654,94,0,0" TextWrapping="Wrap" Text="Результат" VerticalAlignment="Top" Height="16" Width="59"/>
+        <TextBox x:Name="lol" HorizontalAlignment="Left" Height="31" Margin="167,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Background="#FFFF9F9F"/>
+        <TextBox x:Name="rol" HorizontalAlignment="Left" Height="28" Margin="475,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124" Background="#FFFF88AE"/>
+        <TextBlock HorizontalAlignment="Left" Margin="475,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="124"><Run Text="Введите "/><Run Text="кол-во денег"/></TextBlock>
 
     </Grid>
 </Window>

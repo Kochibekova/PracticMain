@@ -92,59 +92,132 @@ namespace Task5
 
         private void z3_Click(object sender, RoutedEventArgs e)
         {
-            int x = Convert.ToInt32(kol.Text);
-            if (x != 0)
-                pol.Content = "Число положительное,";
-            else
-                pol.Content = "Число отрицательное,";
-
-            bool prost = true;
-            int n = Convert.ToInt32(kol.Text);
-            for (int i = 2; i <= n / 2; i++)
+            if (kol.Text == "")
             {
-                if (n % i == 0)
-                {
-                    prost = false;
-                    break;
-                }
+                MessageBox.Show("Укажите число для анализа", "Анализ числа", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
             }
-            if (prost)
-            {
-                pol.Content += " число простое.";
-            }
-            else
-            {
-                pol.Content += " число не простое.";
-            }
+            int number = int.Parse(kol.Text);
+            NumberInfo(number);
         }
 
-        int x = 0;
-        int i = 0;
+        private void NumberInfo(int number)
+        {
+            // Является ли введенное число положительным или отрицательным
+            string negType;
+            if (number >= 0)
+                negType = "Положительное";
+            else
+                negType = "Отрицательное";
+
+            // Является ли число простым
+            string isPrime = "Является ли простым: ";
+            if (IsPrime(number))
+                isPrime = isPrime + "да";
+            else
+                isPrime = isPrime + "нет";
+
+            // Делится ли на 2, 5, 3, 6, 9 без остатка
+            string del2 = "Делится на 2: ";
+            string del5 = "Делится на 5: ";
+            string del3 = "Делится на 3: ";
+            string del6 = "Делится на 6: ";
+            string del9 = "Делится на 9: ";
+
+            if (number % 2 == 0)
+                del2 = del2 + "да";
+            else
+                del2 = del2 + "нет";
+
+            if (number % 5 == 0)
+                del5 = del5 + "да";
+            else
+                del5 = del5 + "нет";
+
+            if (number % 3 == 0)
+                del3 = del3 + "да";
+            else
+                del3 = del3 + "нет";
+
+            if (number % 6 == 0)
+                del6 = del6 + "да";
+            else
+                del6 = del6 + "нет";
+
+            if (number % 9 == 0)
+                del9 = del9 + "да";
+            else
+                del9 = del9 + "нет";
+
+            lol.Text = negType + "\n" + isPrime + "\n" + del2 + "\n" + del5 + "\n" + del3 + "\n" + del6 + "\n" + del9;
+
+
+        }
+
+        // Является ли число простым
+        private bool IsPrime(int number)
+        {
+            for (int i = 2; i < number; i++)
+            {
+                if (number % i == 0)
+                    return false;
+            }
+            return true;
+        }
+
+        private double creditSum = 0; // Сумма кредита
+        private List<double> payments = new List<double>(); // История платежей
+
         private void z4_Click(object sender, RoutedEventArgs e)
         {
-            int y = Convert.ToInt32(hol.Text);
-            x += y;
-            if (i <= 7)
+            if (hol.Text == "" || rol.Text == "")
             {
-                if (x < 1000)
-                {
-                    fol.Content = $"Сумма задолженности {1000 - x}";
-                    i++;
-                }
-                else if (x == 1000)
-                {
-                    i++;
-                    fol.Content = "Долг погашен";
-                }
-                else if (x > 1000)
-                {
-                    i++;
-                    fol.Content = $"Долг погашен, переплата {x - 1000}";
-                }
+                MessageBox.Show("Заполните все значения", "Учёт платежей", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
             }
-            else
-                fol.Content = "Вы не успели погасить долг";
+
+            // После первого ввода отключаем редактирование сумму кредита
+            if (creditSum == 0)
+            {
+                creditSum = double.Parse(hol.Text);
+                hol.IsEnabled = false;
+            }
+
+            AddPayment(double.Parse(rol.Text));
+            rol.Text = "";
         }
+
+        private void AddPayment(double paySum)
+        {
+            payments.Add(paySum);
+
+            // Сколько выплачено всего: суммируем все платежи
+            double totalPayed = payments.Sum();
+
+            // Задолженность
+            double debt;
+            if (creditSum > totalPayed)
+                debt = creditSum - totalPayed;
+            else
+                debt = 0;
+
+            // Переплата
+            double overpayment;
+            if (totalPayed > creditSum)
+                overpayment = totalPayed - creditSum;
+            else
+                overpayment = 0;
+
+            // Состояние кредита
+            string txt;
+            if (debt <= 0)
+                txt = "Долг отсутсвует";
+            else
+                txt = "Есть долг";
+
+            MessageBox.Show("Cумма задолженности: " + debt + "; Сумма переплаты: " + overpayment + "; Долг: " + txt);
+        }
+        
 
         private void z5_Click(object sender, RoutedEventArgs e)
         {
